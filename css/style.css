@@ -466,6 +466,10 @@ h5,
     padding: 20px 0;
 }
 
+.table__row--head .table-cell {
+    padding: 0 0 14px;
+}
+
 .table__cell {
 }
 
@@ -706,7 +710,7 @@ h5,
     max-height: 100vh;
     background-color: var(--color-white);
     padding: 36px 28px 41px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .control-panel-wrap::-webkit-scrollbar {

@@ -815,7 +815,6 @@ h5,
 }
 
 .control-panel-section__container {
-    max-width: calc(968px + 36px + calc(var(--control-panel-wrap-width) + 71px));
     padding: 41px 36px 41px calc(var(--control-panel-wrap-width) + 71px);
 }
 

@@ -386,9 +386,10 @@ h5,
 }
 
 .search-form___btn {
+    margin-top: -12px;
     position: absolute;
     left: 8px;
-    top: 7px;
+    top: 50%;
     width: 24px;
     height: 24px;
     outline: none;
@@ -763,6 +764,7 @@ h5,
     margin-right: 12px;
     overflow: hidden;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .control-panel-user__title {
@@ -789,7 +791,10 @@ h5,
 
 .control-panel-user__link {
     cursor: pointer;
-    font-size: 0;
+}
+
+.control-panel-user__link:hover {
+    text-decoration: none;
 }
 
 .control-panel-user__link:after {

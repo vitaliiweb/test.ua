@@ -61,7 +61,7 @@ body {
     font-weight: normal;
     font-size: var(--fs-default);
     font-family: var(--font-family-default);
-    line-height: normal;
+    line-height: 1.5;
     color: var(--color-text);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -99,7 +99,6 @@ a:hover {
 }
 
 tbody {
-    display: block;
     width: 100%;
 }
 
@@ -421,13 +420,10 @@ h5,
 }
 
 .table {
-    display: block;
     width: 100%;
 }
 
 .table__row {
-    display: flex;
-    justify-content: space-between;
     position: relative;
     padding: 20px 0;
     margin: 0 var(--offset-);
@@ -466,6 +462,7 @@ h5,
     display: flex;
     align-items: center;
     height: 100%;
+    padding: 20px 0;
 }
 
 .table__cell {
@@ -498,32 +495,26 @@ h5,
 }
 
 .table__col--name {
-    flex: 0 0 140px;
     max-width: 140px;
 }
 
 .table__col--company {
-    flex: 0 0 90px;
     max-width: 90px;
 }
 
 .table__col--phone-number {
-    flex: 0 0 124px;
     max-width: 124px;
 }
 
 .table__col--email {
-    flex: 0 0 190px;
     max-width: 190px;
 }
 
 .table__col--country {
-    flex: 0 0 114px;
     max-width: 114px;
 }
 
 .table__col--status {
-    flex: 0 0 120px;
     max-width: 120px;
 }
 
@@ -815,6 +806,7 @@ h5,
 }
 
 .control-panel-section__container {
+    max-width: calc(968px + 36px + calc(var(--control-panel-wrap-width) + 71px));
     padding: 41px 36px 41px calc(var(--control-panel-wrap-width) + 71px);
 }
 

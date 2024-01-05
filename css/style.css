@@ -567,32 +567,6 @@ h5,
     outline: none;
 }
 
-.data-list {
-    display: inline-flex;
-    align-items: center;
-}
-
-.data-list__el {
-    color: #B5B7C0;
-    font-size: var(--fs-default);
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: -0.14px;
-}
-
-.data-list__el--data-one {
-    margin: 0 4px;
-}
-
-.data-list__el--data-two {
-    margin: 0 4px;
-}
-
-.data-list__el--data-tree {
-    margin: 0 4px;
-}
-
 .pagination-list {
     padding: 0;
     list-style-type: none;
@@ -886,6 +860,12 @@ h5,
 }
 
 .control-panel-container-footer__data {
+    color: #B5B7C0;
+    font-size: var(--fs-default);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.14px;
 }
 
 .сontrol-panel-container-footer__pagination-list {
